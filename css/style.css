@@ -373,7 +373,7 @@ p {
 
 .hero .container {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1.2fr;
   gap: 2rem;
   align-items: center;
   position: relative;
@@ -425,7 +425,7 @@ p {
 
 .hero__image img {
   width: 100%;
-  max-width: 100%;
+  max-width: 600px;
   border-radius: 12px;
   margin-left: auto;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
