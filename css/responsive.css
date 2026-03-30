@@ -1,0 +1,120 @@
+/* ===========================
+   RESPONSIVE - Tablet (768px)
+   =========================== */
+@media (max-width: 768px) {
+  h1 { font-size: 2.25rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.25rem; }
+
+  .section { padding: 3.5rem 0; }
+  .container { padding: 0 1.5rem; }
+
+  /* Nav */
+  .nav-links { display: none; }
+  .header__mobile-actions { display: flex; }
+  .header__mobile-actions .hamburger { display: flex; }
+
+  /* Hero */
+  .hero { min-height: auto; padding: 7rem 0 3rem; }
+  .hero .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero__title { font-size: 2.5rem; }
+  .hero__text { margin: 0 auto 2rem; }
+  .hero__image { order: -1; }
+  .hero__image img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  /* Page Hero */
+  .page-hero { padding: 7rem 0 3rem; }
+  .page-hero .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .page-hero__content p { margin: 0 auto; }
+  .page-hero__image { order: -1; }
+  .page-hero__image img {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  /* Grids */
+  .grid-2 { grid-template-columns: 1fr; gap: 2rem; }
+  .services-grid { grid-template-columns: 1fr; max-width: 400px; }
+  .testimonial { grid-template-columns: 1fr; }
+
+  /* How we're different */
+  .different__image { order: -1; }
+  .different__image img { max-width: 400px; margin: 0 auto; }
+
+  /* What to expect */
+  .expect__image img { max-width: 400px; margin: 0 auto; }
+
+  /* Testimonials */
+  .testimonial { grid-template-columns: 1fr; }
+  .testimonial__image { order: -1; }
+  .testimonial__image img { max-width: 400px; margin: 0 auto; }
+
+  /* Appointments */
+  .appointments__grid { grid-template-columns: 1fr; gap: 2.5rem; }
+
+  /* Service tabs */
+  .service-tabs { gap: 0.75rem; }
+  .service-tabs a { font-size: 0.75rem; padding: 0.4rem 0.75rem; }
+
+  /* Approach steps */
+  .approach-step { padding: 1.25rem 1.5rem; }
+
+  /* Footer */
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  /* Contact grid */
+  .contact-grid { grid-template-columns: 1fr; }
+}
+
+/* ===========================
+   RESPONSIVE - Mobile (480px)
+   =========================== */
+@media (max-width: 480px) {
+  h1 { font-size: 1.85rem; }
+  h2 { font-size: 1.5rem; }
+
+  .section { padding: 2.5rem 0; }
+  .container { padding: 0 1rem; }
+
+  .hero__title { font-size: 2rem; }
+  .hero__image img { max-width: 250px; }
+
+  .page-hero__image img { max-width: 200px; }
+
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .service-card { padding: 1.5rem; }
+
+  .different__cta { font-size: 1.1rem; }
+
+  .testimonial__text { font-size: 1.1rem; }
+
+  .cta-phone { font-size: 1.25rem; }
+
+  .celebrity-names { gap: 1rem; }
+  .celebrity-names span { font-size: 1rem; }
+
+  .contact-info { text-align: center; }
+  .contact-info__item { flex-direction: column; align-items: center; text-align: center; }
+  .contact-info__link { flex-direction: column; align-items: center; text-align: center; }
+
+  .mobile-nav a { font-size: 1.5rem; }
+}
