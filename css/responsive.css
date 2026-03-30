@@ -24,7 +24,7 @@
   .hero__text { margin: 0 auto 2rem; }
   .hero__image { order: -1; }
   .hero__image img {
-    max-width: 300px;
+    max-width: 400px;
     margin: 0 auto;
   }
 
@@ -90,7 +90,7 @@
   .container { padding: 0 1rem; }
 
   .hero__title { font-size: 2rem; }
-  .hero__image img { max-width: 250px; }
+  .hero__image img { max-width: 340px; }
 
   .page-hero__image img { max-width: 200px; }
 
